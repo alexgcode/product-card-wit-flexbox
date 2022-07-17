@@ -1,0 +1,48 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+.card-container {
+    display: flex;
+}
+
+.product-card {
+    display: flex;
+    max-width: 700px;
+    max-height: 500px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.card-img {
+    max-width: 50%;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    padding: 15px;
+}
+
+.card-text h1 {
+    color: hsl(212, 21%, 14%);
+}
+
+.card-text p {
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+}
+
+.card-text button {
+    width: 100%;
+}
+
+.prices {
+    display: flex;
+}
+
+.prices .current-price {
+    margin-right: 10px;
+}
