@@ -66,6 +66,7 @@ body {
 .prices .old-price {
     text-decoration: line-through;
     font-family: 'Fraunces', serif;
+    color: hsl(228, 12%, 48%);
 }
 
 .btn-add-cart {
