@@ -102,3 +102,11 @@ body {
     margin: 5px;
     font-weight: 700;
 }
+
+.btn-add-cart:hover {
+    cursor: pointer;
+}
+
+.btn-add-cart:active {
+    background-color:  hsl(158, 36%, 20%);
+}
