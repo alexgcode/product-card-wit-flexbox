@@ -3,16 +3,20 @@
 
 body {
     background-color: hsl(30, 38%, 92%);
+    margin: 0;
 }
 
 .card-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .product-card {
     display: flex;
-    max-width: 700px;
-    max-height: 500px;
+    max-width: 570px;
+    max-height: 550px;
     background-color: white;
     border-radius: 15px;
 }
@@ -26,18 +30,27 @@ body {
     display: flex;
     flex-direction: column;
     align-items:flex-start;
+    align-content: space-between;
     padding: 30px;
 }
 
 .card-text .product-type {
+    font-size: medium;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 5px;
+    margin-bottom: 10px;
 }
 
-.card-text h1 {
+.card-text .product-title {
     color: hsl(212, 21%, 14%);
     font-family: 'Fraunces', serif;
     font-weight: 700;
+    font-size: 30px;
+    line-height: 1.1;
+    margin-bottom: 5px;
+    margin-top: 10px;
 }
 
 .card-text p {
@@ -45,6 +58,7 @@ body {
     color: hsl(228, 12%, 48%);
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+    line-height: 1.5;
 }
 
 .card-text button {
@@ -53,26 +67,38 @@ body {
 
 .prices {
     display: flex;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    align-items: center;
 }
 
 .prices .current-price {
-    margin-right: 10px;
     font-size: 30px;
     color: hsl(158, 36%, 37%);
     font-weight: 700;
     font-family: 'Fraunces', serif;
+    margin-right: 20px;
 }
 
 .prices .old-price {
     text-decoration: line-through;
     font-family: 'Fraunces', serif;
     color: hsl(228, 12%, 48%);
+    font-size: 13px;
 }
 
 .btn-add-cart {
     background-color: hsl(158, 36%, 37%);
     border-radius: 5px;
     border: none;
-    height: 35px;
+    height: 45px;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-add-cart .btn-item{
+    margin: 5px;
+    font-weight: 700;
 }
